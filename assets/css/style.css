@@ -1,0 +1,372 @@
+body {
+    font-family: "Monstserrat", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif sans-serif;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+#topbar {
+    background-color: #15477a;
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+}
+
+#topbar li {
+    display: inline-block;
+}
+
+#topbar li a {
+    color: #fff;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+#topbar li a i {
+    color: #F2C808;
+    margin-right: 5px;
+}
+
+#topbar .sosmed li a {
+    padding: 0 5px;
+}
+
+#topbar .sosmed li a i {
+    color: #fff;
+}
+
+
+.top-contact, .sosmed {
+    list-style: none;
+    padding: 0;
+}
+
+/* CSS UNTUK HEADER */
+header {
+    padding: 30px 0;
+    background-image: url(bg-header.png);
+}
+
+.brand {
+    display: flex;
+}
+
+.brand img {
+    margin-right: 20px;
+}
+
+.brand .brand-name h1 {
+    font-size: 28px;
+    color: rgb(41, 74, 112);
+    text-transform: uppercase;
+}
+
+.brand .brand-name h3 {
+    font-size: 15px;
+    font-family: Raleway, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #888888;
+}
+
+.pembungkus-searchbox {
+    width: 100%;
+}
+
+.btn.btn-utama {
+    background-color: #15477a;
+    color: #fff;
+    font-weight: 600;
+}
+
+/* CSS UNTUK NAVBAR */
+
+.navbar {
+    padding: 0;
+    border-bottom: 5px solid rgb(244, 160, 36);;
+}
+
+.nav-link {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.25px;
+}
+
+.bg-biru {
+    background-color: #15477a!important;
+    color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show>.nav-link {
+    color: #fff;
+}
+
+.active {
+    background-color: rgb(244, 160, 36);
+    color: #15477a;
+}
+
+li.nav-item.active a{
+    color: #15477a;
+}  
+
+.navbar-dark .navbar-nav .nav-link {
+    padding: 15px 20px;
+    display: inline-block;
+}
+
+/* CSS SAMBUTAN */
+#sambutan {
+    margin: 60px 0;
+}
+
+#sambutan h2 {
+    color: rgb(41, 74, 112);
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+#sambutan h3 {
+    color: rgb(41, 74, 112);
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+#sambutan p {
+    font-size: 15px;
+    font-family: Ralewa, sans-serif;
+    font-size: 500;
+    line-height: 28px;
+}
+
+/* CSS SECTION PRESTASI */
+
+#prestasi {
+    min-height: 300px;
+}
+
+.section-title{
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.section-title h2 {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 28px;
+    color: rgb(41, 74, 112);
+    font-weight: 600;
+}
+
+.section-title h2:after {
+    position: absolute;
+    content: "";
+    width: 14%;
+    height: 3px;
+    background-color: #F2C808;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.section-item-title {
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 20px;
+    padding: 20px 0;
+}
+
+.section-item {
+    margin: 50px 0;
+}
+
+.section-item-title h3 {
+    font-size: 20px;
+    color: rgb(41, 74, 112);
+    line-height: 25px;
+    font-weight: 600;
+    padding-right: 40px;
+}
+
+.section-item-title span {
+    color: #666;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.section-item-title span i {
+    margin-right: 5px;
+}
+
+.section-item-title span:first-of-type {
+    margin-right: 15px;
+}
+
+.section-item-body {
+    font-size: 12px;
+    line-height: 25px;
+    color: #666;
+}
+
+.section-item-thumbnail {
+    max-width: 100%;
+    object-fit: cover;
+    width: 100%;
+    max-height: 300px;
+}
+
+/* CSS TOMBOL SELENGKAPNYA */
+
+.tombol-selengkapnya {
+    text-align: center;
+}
+
+.btn.btn-more {
+    font-size: 22px;
+    font-weight: 500;
+    color: rgb(41, 74, 112);
+    text-align: center;
+    display: inline-block;
+    margin: 25px 0;
+    padding: 10px 40px;
+}
+
+/* CSS TENAGA PENDIDIK */
+.owl-item {
+    padding: 20px 10px;
+    background-color: #fff;
+}
+
+.section-item-slider {
+    height: 380px;
+    box-shadow: 0 0 25px #ddd;
+    background-color: #fff;
+}
+
+#tenaga-pendidik .foto-guru {
+    height: 100%;
+    object-fit: cover;
+}
+
+.section-item-caption {
+    position: absolute;
+    bottom: 0;
+    background-color: #fff;
+    color: #000;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+    padding: 20px;
+}
+
+.section-item-caption h5 {
+    color: rgb(41, 74, 112);
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.section-item-caption h6 {
+    color: rgb(138, 132, 124);
+    font-size: 22px;
+}
+
+/* CSS FOOTER */
+footer {
+    background-color: rgb(41, 74, 112);
+    color: #fff;
+}
+
+footer .footer-col:first-of-type {
+    padding-right: 30px;
+    margin-top: 30px;
+    
+}
+
+footer .brand {
+    display: flex;
+}
+
+footer .brand img {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+footer .brand h1 {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+footer .tentang {
+    font-size: 14px;
+    line-height: 26px;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed #fff;
+}
+
+footer .sosmed {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer .sosmed li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+footer .sosmed li a {
+    color: #fff;
+    border: 1px solid #ddd;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+footer .sosmed li a:hover {
+    color: #777;
+}
+
+.footer-col h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.footer-col .alamat {
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.footer-col .footer-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-col .footer-nav li {
+    margin: 10px 0;
+}
+
+.footer-col .footer-nav a{
+    color: #fff;
+    font-size: 17px;
+    font-weight: 400;
+}
